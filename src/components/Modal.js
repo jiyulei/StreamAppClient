@@ -9,7 +9,7 @@ const Modal = (props) => {
     >
       <div
         onClick={(e) => e.stopPropagation()} 
-        // must stop cause is user clicks inside of the modal, event will bubble up,
+        // must stop cause if user clicks inside of the modal, event will bubble up,
         // and catched by the onClick function we defined
         className="ui standard modal visible active"
       >
